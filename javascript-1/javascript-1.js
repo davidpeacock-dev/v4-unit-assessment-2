@@ -10,6 +10,7 @@
 
 //CODE HERE
 
+let myArr = [4, 'abc', 'cat', 'dog', 'bird', 77]
 
 ////////////////////PROBLEM 2////////////////////
 /*
@@ -22,6 +23,7 @@ const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']]
 
 //CODE HERE
 
+console.log(nestedLetters.flat(2));
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -38,6 +40,7 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
 
+let animals = [...forest, ...ocean, ...savannah, ...desert]
 
 /*
     Now use the spread operator to make a copy of your animals array.
@@ -46,6 +49,7 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
 
+let animalsCopy = [...animals, 'elephant']
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -56,6 +60,15 @@ const desert = ['rattlesnake', 'coyote']
 */
 
 //CODE HERE
+
+function compareNums(num1, num2){
+    if(num1 > num2){
+        return num1
+    } else if (num2 > num1){
+        return num2
+    } else return num1 || num2
+}
+
 
   
 ////////////////////PROBLEM 5////////////////////
@@ -69,6 +82,10 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
   
+function bestMovie('movie'){
+    return  is `${movie} the best movie ever!`
+}
+return (Aquaman)
   
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -77,6 +94,9 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
   
+function jsNinja(){
+    return 'I am a JavaScript ninja!'
+}
 
 ////////////////////PROBLEM 7////////////////////
 
@@ -98,6 +118,7 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
   
+delete gameInfo.rating;
 
 ////////////////////PROBLEM 8////////////////////
 
@@ -120,6 +141,11 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
   
+for(let key in shapes){
+    if key[i] % 2 === 1 {
+        return delete
+    } 
+}
   
 ////////////////////PROBLEM 9////////////////////
 
@@ -162,6 +188,14 @@ const classes = [
 
 //CODE HERE
 
+classes.forEach(function(element, index, array)){
+    for(let inPerson in classes){
+        if(inPerson[i] === true){
+            inPerson[i] = false
+        }
+    }
+}
+
   
 ////////////////////PROBLEM 10////////////////////
 /*
@@ -178,7 +212,7 @@ let pairsArray = []
 
 //CODE HERE
 
-    
+
 
 //////////////////////////////////PROBLEMS 11-14//////////////////////////////////
 /*
